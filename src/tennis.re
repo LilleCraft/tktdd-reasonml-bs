@@ -32,7 +32,19 @@ let other_player = player =>
   | PlayerTwo => PlayerOne
   };
 
-let increment_point: point => option(point) = point => None;
+let increment_point: point => option(point) =
+  point =>
+    switch point {
+    | 15 => Some(15)
+    | _ => None
+    };
+
+let read_from_option_point: option(point) => point =
+  op =>
+    switch op {
+    | Some(a) => a
+    | None => 0
+    };
 
 /* Score management functions */
 let score_when_deuce: player => score = winner => Deuce;
