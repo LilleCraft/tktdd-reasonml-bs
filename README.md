@@ -71,5 +71,4 @@ Your are free to cheat ... But you shouldn't do it if you really whant to learn 
 - [Before I start the third iteration](./docs/2.md)
 - [Before I start the forth iteration](./docs/3.md)
 - [Before I start the fifth iteration](./docs/4.md)
-- [Before I start the sixth iteration](./docs/5.md)
 - [The Kata was too easy and I have time to kill](./docs/extra.md)
