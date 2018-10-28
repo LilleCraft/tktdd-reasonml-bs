@@ -39,7 +39,7 @@ describe("Test Game transitions", () => {
   test("Given player: 40 | other : 30 when other wins then score is Deuce", () =>
     expect(false) |> toEqual(true)
   );
-  test("Given player: 40 | other < 30 when other wins then score is Deuce", () =>
+  test("Given player: 40 | other : 15 when other wins then score is 40/15", () =>
     expect(false) |> toEqual(true)
   );
   test(
